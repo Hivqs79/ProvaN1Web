@@ -5,35 +5,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="carrousel.css">
+  <link rel="stylesheet" href="content.css">
 </head>
 
 <body>
-  <section class="carousel" aria-label="Gallery">
+  <main class="carousel">
     <ol class="carousel__viewport">
       <li id="carousel__slide1" tabindex="0" class="carousel__slide">
         <div class="carousel__snapper">
-          <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
-          <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
-          <div class="content">
-              <h2 class="slide-title">Título do slide</h2>
-          </div>
+          <section class="content">
+            <h2 class="slide-title">História e Origem</h2>
+            <div style="display: flex; gap: 2rem; align-items: center;">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, deleniti aliquam ipsa ex ratione commodi delectus blanditiis eius molestias maiores quos eos magnam animi officia quisquam vitae iste, ducimus modi?</p>
+              <img src="https://picsum.photos/300/200" alt="Placeholder Image">
+            </div>
+            <div style="display: flex; gap: 2rem; align-items: center;">
+              <img src="https://picsum.photos/200/250" alt="Placeholder Image">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, deleniti aliquam ipsa ex ratione commodi delectus blanditiis eius molestias maiores quos eos magnam animi officia quisquam vitae iste, ducimus modi?</p>
+            </div>            
+            <img style="width: 100%; margin-top: 2rem; justify-self: end;" src="https://picsum.photos/900/100" alt="Placeholder Image">
+          </section>
         </div>
       </li>
       <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper"></div>
-        <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-        <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+        <div class="carousel__snapper">
+          <section class="content">
+            <h2 class="slide-title">Título do slide 2</h2>
+          </section>
+        </div>
       </li>
       <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper"></div>
-        <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-        <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+        <div class="carousel__snapper">
+          <section class="content">
+            <h2 class="slide-title">Título do slide 3</h2>
+          </section>
+        </div>
       </li>
       <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper"></div>
-        <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-        <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+        <div class="carousel__snapper">
+          <section class="content">
+            <h2 class="slide-title">Título do slide 4</h2>
+          </section>
+        </div>
+      </li>
+      <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+        <div class="carousel__snapper">
+          <section class="content">
+            <h2 class="slide-title">Título do slide 5</h2>
+          </section>
+        </div>
+      </li>
+      <li id="carousel__slide6" tabindex="0" class="carousel__slide">
+        <div class="carousel__snapper">
+          <section class="content">
+            <h2 class="slide-title">Título do slide 6</h2>
+          </section>
+        </div>
       </li>
     </ol>
     <aside class="carousel__navigation">
@@ -50,9 +78,15 @@
         <li class="carousel__navigation-item">
           <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
         </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide5" class="carousel__navigation-button">Go to slide 5</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide6" class="carousel__navigation-button">Go to slide 6</a>
+        </li>
       </ol>
     </aside>
-  </section>
+  </main>
 </body>
 
 </html>
