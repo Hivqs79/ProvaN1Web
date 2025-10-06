@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   padding: 3rem;
-  height: 100%;
+  max-height: 100%;
 }
 
 #carousel__slide0 {
@@ -32,7 +32,7 @@
 
 .title {
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   line-height: 1;
   margin-bottom: 4rem;
@@ -40,12 +40,12 @@
 
 .names {
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .slide-title {
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-bottom: 4rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .text {
-  font-size: 2rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   margin-top: 1rem;
   text-align: justify;

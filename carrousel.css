@@ -103,6 +103,8 @@ li {
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   background-color: #d6bc75;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 .carousel__slide {
