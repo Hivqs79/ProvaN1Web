@@ -102,14 +102,14 @@ li {
   counter-reset: item;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-  background-color: #e3e3e3;
+  background-color: #d6bc75;
 }
 
 .carousel__slide {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-color: #e3e3e3;
+  background-color: #d6bc75;
   counter-increment: item;
 }
 

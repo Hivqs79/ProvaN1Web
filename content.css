@@ -14,11 +14,39 @@
   display: flex;
   flex-direction: column;
   padding: 3rem;
+  height: 100%;
+}
+
+#carousel__slide0 {
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+
+#carousel__slide0 .content {  
+  height: 100%;
+  background-image: url("./assets/fundo-egito-antigo.png");
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+  margin-bottom: 4rem;
+}
+
+.names {
+  color: white;
+  font-size: 2rem;
 }
 
 .slide-title {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
 }
 
 .slide-title::after {
@@ -27,6 +55,13 @@
   width: 60vw;
   border-bottom: 4px solid var(--primary-color);
   margin-top: 0.5rem;
+}
+
+.text {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  text-align: justify;
 }
 
 img {

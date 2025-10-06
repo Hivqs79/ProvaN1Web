@@ -13,40 +13,64 @@
 <body>
   <main class="carousel">
     <ol class="carousel__viewport">
+      <li id="carousel__slide0" tabindex="0" class="carousel__slide">
+        <div class="carousel__snapper">
+          <section class="content">
+            <h1 class="title">Cerveja e<br>sua Origem</h1>
+            <span class="names">Pedro Augusto, Saymon Oliveira, Gabriel Medeiros,<br>Lucas Vinicius, Rafael</span>
+          </section>
+        </div>
+      </li>
       <li id="carousel__slide1" tabindex="0" class="carousel__slide">
         <div class="carousel__snapper">
           <section class="content">
-            <h2 class="slide-title">História e Origem</h2>
-            <div style="display: flex; gap: 2rem; align-items: center;">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, deleniti aliquam ipsa ex ratione commodi delectus blanditiis eius molestias maiores quos eos magnam animi officia quisquam vitae iste, ducimus modi?</p>
-              <img src="https://picsum.photos/300/200" alt="Placeholder Image">
+            <h2 class="slide-title">Origem na Suméria</h2>
+            <div style="display: flex; gap: 2rem; height: 100%;">
+              <div style="display: flex; flex-direction: column; height: 100%; justify-content: center;">
+                <p class="text">Acredita-se que a cerveja tenha surgido quase por acidente, a partir da fermentação de cereais umedecidos. Os sumérios, na Mesopotâmia, foram pioneiros, com evidências de produção e consumo já em 6.000 a.C. O Código de Hamurabi (c. 1754 a.C.) até mencionava leis sobre sua produção e venda.</p>
+                <p class="text" style="margin-top: 2rem;">Para os antigos egípcios, a cerveja era parte da dieta diária e até mesmo salário para trabalhadores das pirâmides.</p>
+              </div>
+              <img style="height: 100%; margin-left: 3rem;" src="./assets/hamurabi.png" alt="Código de Hamurabi">
             </div>
-            <div style="display: flex; gap: 2rem; align-items: center;">
-              <img src="https://picsum.photos/200/250" alt="Placeholder Image">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, deleniti aliquam ipsa ex ratione commodi delectus blanditiis eius molestias maiores quos eos magnam animi officia quisquam vitae iste, ducimus modi?</p>
-            </div>            
-            <img style="width: 100%; margin-top: 2rem; justify-self: end;" src="https://picsum.photos/900/100" alt="Placeholder Image">
           </section>
         </div>
       </li>
       <li id="carousel__slide2" tabindex="0" class="carousel__slide">
         <div class="carousel__snapper">
-          <section class="content">
-            <h2 class="slide-title">Título do slide 2</h2>
+          <section class="content" style="overflow: hidden;">
+            <h2 class="slide-title">Declínio da Cerveja</h2>
+            <div style="display: flex; flex-direction: column; gap: 2rem;">
+              <p class="text">Embora os gregos e romanos fossem mais conhecidos pelo vinho, a cerveja era consumida pelas classes trabalhadoras e por povos "bárbaros" ao norte, como os celtas e germânicos. Era vista como uma bebida rústica, mas sua popularidade já era inegável em muitas regiões.</p>
+              <img src="./assets/cerveja-vs-vinho.png" alt="Cerveja vs Vinho" style="width: 100%;">
+            </div>
           </section>
         </div>
       </li>
       <li id="carousel__slide3" tabindex="0" class="carousel__slide">
         <div class="carousel__snapper">
           <section class="content">
-            <h2 class="slide-title">Título do slide 3</h2>
+            <h2 class="slide-title">Mosteiros</h2>
+            <div style="display: flex; height: 100%;">
+              <img src="./assets/monge.png" alt="Monge" style="height: 100%; margin-right: 3rem;">              
+              <div style="display: flex; flex-direction: column; height: 100%; justify-content: center;">
+                <p class="text">Durante a Idade Média, os mosteiros europeus tornaram-se centros de inovação na produção de cerveja. Os monges aprimoraram as receitas, adicionando lúpulo (que ajudava na conservação e sabor) e garantindo uma bebida segura em uma época de água nem sempre potável.</p>
+                <p class="text" style="margin-top: 2rem;">Nessa época, a cerveja começou a tomar as rédeas novamente e tornou-se uma bebida popular em todo o mundo.</p>                  
+              </div>              
+            </div>
           </section>
         </div>
       </li>
       <li id="carousel__slide4" tabindex="0" class="carousel__slide">
         <div class="carousel__snapper">
           <section class="content">
-            <h2 class="slide-title">Título do slide 4</h2>
+            <h2 class="slide-title">Reinheitsgebot</h2>
+            <div style="display: flex; height: 100%;">
+              <div style="display: flex; flex-direction: column; height: 100%; justify-content: center;">
+                <p class="text">Em 1516, na Baviera (Alemanha), foi promulgada a Reinheitsgebot, a famosa "Lei da Pureza da Cerveja". Esta lei estabeleceu que a cerveja só poderia ser fabricada com três ingredientes essenciais: malte (de cevada), lúpulo e água.</p>
+                <p class="text">A levedura, embora crucial para a fermentação, só seria compreendida no século XIX com Louis Pasteur.</p>
+              </div>
+              <img src="./assets/lei-da-pureza.png" alt="Lei da Pureza" style="margin-left: 3rem; height: 100%;">
+            </div>
           </section>
         </div>
       </li>
@@ -67,6 +91,9 @@
     </ol>
     <aside class="carousel__navigation">
       <ol class="carousel__navigation-list">
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide0" class="carousel__navigation-button">Go to slide 0</a>
+        </li>
         <li class="carousel__navigation-item">
           <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
         </li>
