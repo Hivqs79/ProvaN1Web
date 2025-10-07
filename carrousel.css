@@ -115,15 +115,6 @@ li {
   counter-increment: item;
 }
 
-.carousel__slide:before {
-  content: counter(item);
-  position: absolute;
-  bottom: 24px;
-  right: 24px;
-  color: #333;
-  font-size: 2em;
-}
-
 .carousel__snapper {
   position: absolute;
   top: 0;
@@ -131,30 +122,4 @@ li {
   width: 100%;
   height: 100%;
   scroll-snap-align: center;
-}
-
-.carousel__navigation {
-  position: fixed;
-  right: 0;
-  bottom: 16px;
-  left: 0;
-  text-align: center;
-}
-
-.carousel__navigation-list,
-.carousel__navigation-item {
-  display: inline-block;
-}
-
-
-.carousel__navigation-button {
-  display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-color: #333;
-  background-clip: content-box;
-  border: 0.25rem solid transparent;
-  border-radius: 50%;
-  font-size: 0;
-  transition: transform 0.1s;
 }
