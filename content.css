@@ -211,32 +211,3 @@ img {
   position: absolute;
   top: 8px;
 }
-
-.highlights {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.highlight-card {
-  background: rgba(255,255,255,0.1);
-  border-radius: 16px;
-  padding: 1rem 1.2rem;
-  width: 200px;
-  text-align: center;
-  backdrop-filter: blur(6px);
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.highlight-card:hover {
-  transform: translateY(-6px);
-  background: rgba(255,255,255,0.2);
-}
-
-.highlight-card .emoji {
-  font-size: 1.8rem;
-  display: block;
-  margin-bottom: 0.3rem;
-}
